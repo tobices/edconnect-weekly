@@ -13,8 +13,12 @@
     <nav class="navbar navbar-expand-md navbar-dark  bg-primary">
             <a class="navbar-brand" href="#">Project Explorer</a>
                 <form class="form-inline my-2 my-lg-0">
+                    <div class ="form-group">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search Projects" name="searchForm" aria-label="Search">
-                    <button class="btn  btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                   </div>
+                   <div class ="form-group">
+                   <button class="btn  btn-outline-light" type="submit">Search</button>
+                   </div>
                   </form>
                
       
@@ -30,7 +34,9 @@
            </ul>
               
         </div>
+            </div>
             </nav>
+        </div> </div>
         
 
 <main>
@@ -68,11 +74,11 @@
 
             <label for="Fisrtname" class="form-label">Fisrtname</label>
 
-            <input type="text" class="form-control" placeholder="">
+            <input type="text" name ="firstName" class="form-control" placeholder="">
           </div></div>
           <div class="col">
               <div class ="form-group">
-            <label for="Lastname" class="form-label">Lastname</label>
+            <label for="Lastname" name="lastName" class="form-label">Lastname</label>
 
             <input type="text" class="form-control" placeholder="Last name">
           </div></div>
@@ -81,12 +87,10 @@
            <div class ="col">
             <div class ="form-group">
         <label for="staticEmail" class="form-label">email</label>
-
         <input class="form-control"  type = "email"  name ="email" /></label>
 </div></div>
 <div class ="col">
     <div class ="form-group">
-
     <label for="inputpassword" class="form-label">Password</label>
     <input  type = "password" class="form-control" name ="password" /></label>
 </div> </div></div>
@@ -143,23 +147,23 @@
 
             <label for="cupassword" class="form-label">current password</label>
     
-            <input class="form-control"  type = "email"  name ="email" /></label>
+            <input class="form-control"  type = "password"  name ="pasword" /></label>
     </div></div>
     <div class ="col">
+        <div class = "form-group">
         <label for="Npassword" class="form-label">New Password</label>
         <input  type = "password" class="form-control" name ="password" /></label>
-    </div> 
+    </div> </div>
     <div class ="col">
         <div class ="form-group">
-
         <label for="cpassword" class="form-label">confirm Password</label>
         <input  type = "password" class="form-control" name ="password" /></label></div>
     
    </div>   
     </div>
-      
-           <button class ="btn btn-primary"  type ="submit"> Update Profile</button> 
-           </div>
+      <div class = "form-group">
+           <button class ="btn btn-primary"  type ="submit"> change password</button> 
+           </div></form>
         </form>
 
 </main>
