@@ -42,19 +42,17 @@
     <main>
         
         <h2>Search Project By</h2>
-        <form class ="group">
+        <form class ="form-group">
             <div class ="container">
         <div class ="form-row" name = "searchForm">
             <div class ="col">
-                
-
         <input  class = "form-control form-control-lg" type = "text" name = "searchTerm" placeholder="Project Name, Authors, Abstract, Tags"/>
         </div>
         <div class = "col">
         
             <div class="form-control-lg form-label p-3 mb-2 bg-light text-dark">
-
-    <label> SearchBy:</label>
+<div class ="form-group">
+    <label class="form-label"> SearchBy:</label>
 
     <select id="Name" name ="searchType">
      <option value="Name">Name</option>
@@ -62,14 +60,15 @@
      <option value="Authors">Authors</option>
      <option value="Tags">Tags</option>
     </select>
-    </div> </div>
+    </div> </div></div>
     <div class = "col">
+      <div class ="form-group">
        <input class= "btn btn-lg btn-primary" type = "submit" value = "Search"/>
-    </div> </div>
+    </div> </div> </div>
 </form>
 
     
-<div class="d-flex flex-row bd-highlight mb-3">
+<div class="d-flex flex p-3 bd-highlight mb-3">
   <div class ="row">
   <div class="col">
 <div class ="card">
